@@ -1,0 +1,33 @@
+.searchSection {
+  display: flex;
+  padding: 11px 24px;
+  gap: 0.5rem;
+}
+
+.searchContent {
+  width: 352px;
+
+  height: 40px;
+  box-sizing: border-box;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  padding-inline: 0.5rem;
+  border-radius: 2rem;
+  gap: 1rem;
+  margin-inline-start: 0.5rem;
+}
+
+.searchContent i {
+  color: var(--gray60);
+}
+.searchContent input {
+  border: none;
+  display: block;
+  width: 80%;
+  padding: 0;
+
+  height: inherit;
+  outline: none;
+  /* outline: 1px solid red; */
+}

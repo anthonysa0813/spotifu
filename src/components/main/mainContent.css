@@ -1,0 +1,16 @@
+.mainContainer {
+  grid-column: 3/-1;
+  grid-row: 1/4;
+}
+
+.titleContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 4rem;
+}
+.buttonGroup {
+  display: flex;
+  gap: 0.5rem;
+}

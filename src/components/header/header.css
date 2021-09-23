@@ -1,0 +1,45 @@
+.debug {
+  border: 1px solid blue;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  padding-left: 20px;
+  padding-block: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.is-active {
+  box-shadow: inset 4px 0 var(--primary);
+}
+
+.menuItem i {
+  font-size: 1.5rem;
+}
+
+.library span {
+  padding-inline-start: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gray10);
+}
+
+.classList {
+  margin-block-start: 1.5rem;
+}
+
+.classList span {
+  font-weight: 400;
+  font-size: 14px;
+  padding-inline-start: 20px;
+}
+
+header ul li:hover {
+  color: var(--white);
+}
