@@ -1,10 +1,11 @@
 .mainContainer {
-  grid-column: 3/-1;
-  grid-row: 1/4;
+  grid-column: 1/-1;
+  grid-row: 2/4;
 }
 
 .titleContent {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding-inline-start: 1.5rem;
@@ -13,4 +14,26 @@
 .buttonGroup {
   display: flex;
   gap: 0.5rem;
+  margin-block-end: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+  .mainContainer {
+    grid-column: 6/-1;
+    grid-row: 1/4;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .mainContainer {
+    grid-column: 5/-1;
+    grid-row: 1/4;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .mainContainer {
+    grid-column: 3/-1;
+    grid-row: 1/4;
+  }
 }

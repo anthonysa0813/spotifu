@@ -1,8 +1,8 @@
 .musicContent {
-  padding: 29px 23px;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .themeInfo {
@@ -32,4 +32,13 @@
   padding: 1rem;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+@media screen and (min-width: 420px) {
+  .musicContent {
+    padding: 29px 23px;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
 }

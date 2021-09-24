@@ -1,7 +1,9 @@
 .debug {
   border: 1px solid blue;
 }
-
+header {
+  display: none;
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -42,4 +44,10 @@ nav ul li {
 
 header ul li:hover {
   color: var(--white);
+}
+
+@media screen and (min-width: 400px) {
+  header {
+    display: block;
+  }
 }

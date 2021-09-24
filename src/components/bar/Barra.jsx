@@ -14,13 +14,13 @@ const Barra = () => {
         </div>
         <i className="icon-heart"></i>
       </div>
-      <div className="advancedMusic   ">
+      <div className="advancedMusic    ">
         <div className="controlls">
           <Button iconClass={"icon-prev"} />
           <Button iconClass={"icon-play"} state={"is-radius"} />
           <Button iconClass={"icon-next"} />
         </div>
-        <div className="productionMusic">
+        <div className="productionMusic ">
           <span>01:12</span>
           <div className="barPlay">
             <div className="barAdv"></div>
@@ -28,9 +28,9 @@ const Barra = () => {
           <span>03:25</span>
         </div>
       </div>
-      <div className="volumnMusic ">
+      <div className="volumnMusic  ">
         <i className="icon-volumeUp"></i>
-        <div className="barPlay">
+        <div className="barPlay ">
           <div className="barAdv"></div>
         </div>
       </div>

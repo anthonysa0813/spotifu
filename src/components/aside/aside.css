@@ -1,14 +1,18 @@
 aside {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: -1;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 2;
+  /* box-sizing: border-box; */
+
+  padding-block-start: 1.5rem;
   /* border: 1px solid red; */
 }
 
 .logo {
   padding-left: 1rem;
-  padding-block-start: 20px;
+
+  /* padding-block-start: 20px; */
 }
 
 ::-webkit-scrollbar {
@@ -23,4 +27,39 @@ aside {
 ::-webkit-scrollbar-thumb {
   background: #e1e1e1;
   border-radius: 50px;
+}
+
+@media screen and(min-width: 400px) {
+  aside {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding-block-start: 1.5rem;
+
+    /* border: 1px solid red; */
+  }
+}
+
+@media screen and (min-width: 560px) {
+  aside {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding-block-start: 1.5rem;
+
+    /* border: 1px solid red; */
+  }
+}
+
+@media screen and (min-width: 810px) {
+  aside {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding-block-start: 1.5rem;
+    /* border: 1px solid red; */
+  }
 }
