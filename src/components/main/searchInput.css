@@ -21,6 +21,7 @@
 
 .searchContent i {
   color: var(--gray60);
+  margin-inline: 0.5rem;
 }
 .searchContent input {
   border: none;
