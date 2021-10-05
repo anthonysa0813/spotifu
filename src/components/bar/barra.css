@@ -90,4 +90,8 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .volumnMusic {
+    /* flex-basis: 10%; */
+    flex: 0.5 0 200px;
+  }
 }
